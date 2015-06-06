@@ -16,7 +16,7 @@ Kitematic will be installed from source ( https://github.com/kitematic/kitematic
 
 ## Take a snapshot
 
-If you want to investigate first use experience over and over again, just take a snapshot
+If you want to investigate first use experience over and over again, just take a snapshot. If you don't know this command you probably have to install the plugin first with `vagrant plugin install vagrant-multiprovider-snap`.
 
 ```bash
 vagrant snap take
