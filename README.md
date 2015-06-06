@@ -12,7 +12,7 @@ And then you can spin up the Vagrant box with the usual
 vagrant up --provider vmware_fusion
 ```
 
-Kitematic will be installed from source and you can dig into their source code https://github.com/kitematic/kitematic.
+Kitematic will be installed from source ( https://github.com/kitematic/kitematic ) and you can dig into all details.
 
 ## Take a snapshot
 
@@ -30,3 +30,5 @@ To run Kitematic for the first time from source code, open a terminal in the Vag
 cd kitematic
 npm start
 ```
+
+If you want to have the same first time experience, just run `vagrant snap rollback` on your host and repeat the commands above.
